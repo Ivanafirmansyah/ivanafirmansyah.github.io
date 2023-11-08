@@ -9,11 +9,11 @@ comments: true
 
 ## CPU (Central Processing Unit)
 
-<p align="justify">CPU adalah bagian terpenting dari sebuah komputer yang bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada komputer.</p>
+CPU adalah bagian terpenting dari sebuah komputer yang bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada komputer.
 
 ## Komponen CPU
 
-- <p align="justify">Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.</p>
+- Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.
 
 - Arithmetic and logic unit (ALU): Untuk melakukan operasi aritmetika dan operasi logika berdasar instruksi yang ditentukan.
 
@@ -240,35 +240,51 @@ dapat ditulis kembali ke media penyimpanan jika ada perubahan dalam data tersebu
 
 # Bab 4
 
-Data:
-<p>Data adalah fakta-fakta, angka, informasi,atau rekaman yang digunakan sebagai
-dasar untuk pengambilan keputusan,analisis, penelitian, atau tujuan lainnya.Data 
-dapat berupa berbagai jenis, seperti teks, angka, gambar, audio, atau video,dan 
-dapat mewakili berbagai jenis informasi.</p>
-Data pada Komputer:
-<p>Data Numerik =
-Data Numerik merupakan data yang berupa angka maupun bilangan, bisa dalam 
-bentuk integer, float dan sebagainya.</p>
-<p>Data Non Numerik =
-Data Non Numerik adalah data yang bukan berupa angka maupun bilangan.Contohnya 
-adalah dataTeks, gambar dan sebagainya.</p>
-Data Numerik:
-<p>Sistem Decimal =
+## Data
+
+Data adalah fakta-fakta, angka, informasi,atau rekaman yang digunakan sebagai dasar untuk pengambilan keputusan,analisis, penelitian, atau tujuan lainnya. Data dapat berupa berbagai jenis, seperti teks, angka, gambar, audio, atau video,dan dapat mewakili berbagai jenis informasi.
+
+## Data pada Komputer
+
+### Data Numerik
+
+Data Numerik merupakan data yang berupa angka maupun bilangan, bisa dalam bentuk integer, float dan sebagainya.
+
+### Data Non Numerik 
+
+Data Non Numerik adalah data yang bukan berupa angka maupun bilangan. Contohnya adalah data teks, gambar dan sebagainya.
+
+### Data Numerik
+
+#### Sistem Decimal 
+
 Sistem desimal merupakan sistem bilangan yang digunakan sehari-hari.
 Desimal terdiri dari angka: 0,1,2,3,4,5,6,7,8,9.
+
 83 = (8x10) + 3
-Desimal memiliki base atau radix 10, jadi dapat disimpulkan sebagaiberikut :
-83 = (8x10^1) + (3x10^0)
-4728 = 4x10^... + 7x10^... + 2x10^... + 8x10^...</p>
-<p>Sistem Biner =
+
+Desimal memiliki base atau radix 10, jadi dapat disimpulkan sebagai berikut :
+
+- 83 = (8x10 <sup>1</sup>) + (3x10 <sup>0</sup>)
+
+- 4728 = 4x10 <sup>...</sup> + 7x10 <sup>...</sup> + 2x10 <sup>...</sup> + 8x10 <sup>...</sup>
+
+#### Sistem Biner 
+
 Sistem biner merupakan system bilangan yang terdiri dari angka 0 dan 1.
-1 = 0001
-8 = 1000
-.Sistem biner memiliki base atau radix 2, jadi dapat disimpulkan sebagai
+
+- 1 = 0001
+
+- 8 = 1000
+
+Sistem biner memiliki base atau radix 2, jadi dapat disimpulkan sebagai
 berikut :
+
 Contoh berikut pada 4 bit
-1 = 0*2^3 + 0*2^2 + 0*2^1 + 0*2^0
-8 = ....................</p>
+
+- 1 = 0*2 <sup>3</sup> + 0*2^2 + 0*2^1 + 0*2^0
+- 8 = ....................
+
 <p>Integers =
 Integers atau bilangan bulat merupakan bilangan yang terdiri dari
 nilai positif, negatif dan bukan berupa pecahan/desimal.
