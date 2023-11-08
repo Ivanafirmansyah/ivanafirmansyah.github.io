@@ -6,24 +6,36 @@ comments: true
 ---
 
 # Bab 1
-CPU/Central Processing Unit adalah bagian terpenting dari sebuah komputer yang
-bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada
-komputer.
+
+## CPU (Central Processing Unit) 
+
+CPU adalah bagian terpenting dari sebuah komputer yang bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada komputer.
+
 ## Komponen CPU
+
 - Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.
+
 - Arithmetic and logic unit (ALU): Untuk melakukan operasi aritmetika dan operasi logika berdasar instruksi yang ditentukan.
+
 - Register: Penyimpanan sementara yang digunakan untuk menyimpan data yang sedang diproses atau hasil perhitungan sementara selama eksekusi instruksi komputer.
+
 - CPU Interconnection: sistem koneksi dan bus yang menghubungkan komponen internal CPU dengan bus-bus eksternal Arithmetic Logic Unit
+
 ### ALU (Arithmetic Logic Unit) 
+
 ALU (Arithmetic Logic Unit) adalah komponen penting dalam unit pemrosesan pusat (CPU) pada komputer. ALU bertanggung jawab untuk melakukan operasi aritmatika (seperti penjumlahan,pengurangan, perkalian, dan pembagian) serta operasi logika 
 (seperti AND, OR, XOR,dan NOT) dalam sistem komputer.
+
 #### Peran ALU
+
 - Operasi Aritmatika
 - Operasi Logika
 - Perbandingan dan Pemrosesan Data
 - Operasi Bitwise
 - Penaganan Overflow dan Carry
+
 #### Komponen ALU
+
 - Register
 - Pemilih(Multiplexer)
 - Dekoder
@@ -32,13 +44,20 @@ ALU (Arithmetic Logic Unit) adalah komponen penting dalam unit pemrosesan pusat 
 - Pembanding(Comparator)
 - Rangkaian penanganan Overflow dan Carry
 - Bus Data(Jalur Komunikasi)
+
 ### Register
+
 Register adalah salah satu dari sekumpulan kecil tempat penyimpanan data yang merupakan bagian dari prosesor komputer. Register dapat menyimpan instruksi, alamat penyimpanan, atau jenis data apapun (seperti urutan bit atau 
 karakterindividual).
+
 #### Operasi Register
+
 - Fetch: Operasi Fetch digunakan untuk mengambil instruksi yang diberikan oleh pengguna.
+
 - Decode: Operasi Decode digunakan untuk menafsirkan instruksi.
+
 - Execute: Operasi Execute dilakukan oleh CPU. Output yang dihasilkan oleh CPU kemudian disimpan ke dalam memori dan setelah itu ditampilkan di layar pengguna.
+
 #### Jenis-Jenis Register
 - MAR(Memory Address Register)
 Register ini menyimpan alamat memori dari data dan instruksi. Register ini 
