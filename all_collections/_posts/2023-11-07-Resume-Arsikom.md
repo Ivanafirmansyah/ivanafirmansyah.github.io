@@ -29,9 +29,13 @@ ALU (Arithmetic Logic Unit) adalah komponen penting dalam unit pemrosesan pusat 
 #### Peran ALU
 
 - Operasi Aritmatika
+
 - Operasi Logika
+
 - Perbandingan dan Pemrosesan Data
+
 - Operasi Bitwise
+
 - Penaganan Overflow dan Carry
 
 #### Komponen ALU
