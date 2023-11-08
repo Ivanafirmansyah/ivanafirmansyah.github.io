@@ -11,7 +11,7 @@ comments: true
 
 CPU adalah bagian terpenting dari sebuah komputer yang bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada komputer.
 
-## Komponen CPU
+### Komponen CPU
 
 - Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.
 
@@ -282,134 +282,162 @@ berikut :
 
 Contoh berikut pada 4 bit
 
-- 1 = 0*2 <sup>3</sup> + 0*2^2 + 0*2^1 + 0*2^0
-- 8 = ....................
+- 1 = 0x2 <sup>3</sup> + 0x2 <sup>2</sup> + 0x2 <sup>1</sup> + 0x2 <sup>0</sup>
 
-<p>Integers =
+- 3 = 0x2 <sup>3</sup> + 0x2 <sup>2</sup> + 1x2 <sup>1</sup> + 1x2 <sup>0</sup>
+
+- 8 = 1x2 <sup>3</sup> + 0x2 <sup>2</sup> + 0x2 <sup>1</sup> + 0x2 <sup>0</sup>
+
+- 9 = 1x2 <sup>3</sup> + 0x2 <sup>2</sup> + 0x2 <sup>1</sup> + 1x2 <sup>0</sup>
+
+#### Integers
+
 Integers atau bilangan bulat merupakan bilangan yang terdiri dari
 nilai positif, negatif dan bukan berupa pecahan/desimal.
 Contoh bilangan bulat adalah = –5, 0, 8
-.Pada pemrograman integers akan dinotasikan sebagai int
-Dengan 8 bit data, maka nilai integers adalah sebagai berikut :
-00000000 = 0
-00000001 = 1
-00101001 = 41
-10000000 = 128
-11111111 = 255</p>
+
+Pada pemrograman integers akan dinotasikan sebagai int dengan 8 bit data, maka nilai integers adalah sebagai berikut :
+
+- 00000000 = 0
+
+- 00000001 = 1
+
+- 00101001 = 41
+
+- 10000000 = 128
+
+- 11111111 = 255
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/intergers.png)</span>
-<p>Bilangan Real =
-Bilangan real adalah bilangan yang terdapat pecahan atau desimal.Contoh dari 
-bilangan real adalah 3.14, -0.05, dan sebagainya. Pada bahasa pemrograman bilang 
-real di notasikan sebagai float dan double</p>
-<p>Bilangan Cacah =
-Bilangan cacah adalah bilang bulat tanpa nilai negatif.</p>
-Data Non-Numerik:
-<p>>TEXT
+
+#### Bilangan Real 
+
+Bilangan real adalah bilangan yang terdapat pecahan atau desimal.Contoh dari bilangan real adalah 3.14, -0.05, dan sebagainya. Pada bahasa pemrograman bilang real di notasikan sebagai float dan double
+
+#### Bilangan Cacah 
+
+Bilangan cacah adalah bilang bulat tanpa nilai negatif.
+
+### Data Non-Numerik
+
+#### TEXT
+
 data teks pada komputer mengacu pada cara teks atau informasi berbasis teks 
-direpresentasikan, disimpan,dan dikelola dalam sistem komputer. Representasi ini 
-mencakup cara karakter, kata, kalimat, dan dokumen dalam bentuk teks 
-direpresentasikan dalam format biner yang dapat dipahami dan diolah oleh
-komputer.</p>
+direpresentasikan, disimpan,dan dikelola dalam sistem komputer. Representasi ini mencakup cara karakter, kata, kalimat, dan dokumen dalam bentuk teks direpresentasikan dalam format biner yang dapat dipahami dan diolah oleh komputer.
+
 metode representasi data teks pada komputer:
-<p>-Character Encoding
+
+- Character Encoding
+
 Character encoding adalah metode dasar untuk merepresentasikan karakter teks 
-dalam bentuk kode numerik. Setiap karakter (termasuk huruf, angka, dan simbol) 
-diberikan kode numerik yang unik.</p>
-<p>-Plain Text
-Teks mentah atau plain text adalah representasi dasar teks di komputer. Ini adalah 
-urutan karakter yang direpresentasikan menggunakan karakter encoding tertentu, 
-seperti ASCII atau UTF-8. Teks mentah tidak memiliki pemformatan khusus dan 
-tidak mengandung tag atau markup.</p>
-<p>- Markup Languages
+dalam bentuk kode numerik. Setiap karakter (termasuk huruf, angka, dan simbol) diberikan kode numerik yang unik.
+
+- Plain Text
+
+Teks mentah atau plain text adalah representasi dasar teks di komputer. Ini adalah urutan karakter yang direpresentasikan menggunakan karakter encoding tertentu, seperti ASCII atau UTF-8. Teks mentah tidak memiliki pemformatan khusus dan tidak mengandung tag atau markup.
+
+- Markup Languages
+
 Markup languages seperti HTML (Hypertext Markup Language) dan XML 
 (eXtensibleMarkup Language) digunakan untuk merepresentasikan teks bersama 
 dengan tag yang memberikan instruksi untuk pemformatan dan tampilan. Markup 
-languages memungkinkan teks untuk dimunculkan dalam berbagai cara di web dan 
-aplikasi.</p>
-<p>-Word Processing Formats
+languages memungkinkan teks untuk dimunculkan dalam berbagai cara di web dan aplikasi.
+
+- Word Processing Formats
+
 Format dokumen pengolah kata seperti DOCX (Microsoft Word), ODT
 (OpenDocument Text), dan RTF (Rich Text Format) digunakan untuk 
-merepresentasikan teks dengan pemformatan lanjutan, seperti huruf tebal, miring, 
-dan daftar.</p>
-<p>- Plain Text Files
-Teks mentah sering disimpan dalam file berformat .txt atau .csv. Ini adalah format 
-dasar yang hanya berisi teks tanpa format atau struktur tambahan.</p>
-<p>-Image
-Representasi Citra Digital → semua gambar yang bisa disimpan/diolah pada 
-komputer/piranti digital disebut dengan citra digital Citra tersusun dari elemen‐
-elemen terkecil yang disebut Pixel (picture element).Banyaknya pixel pada sebuah 
-citra disebut dengan Resolusi.Biasanya resolusi dinyatakan dalam 2 cara,
-yaitu:dimensi panjang x lebar, misal: 800×600,1024×768, dll.Banyaknya pixel, misal: 
-2 Mega Pixel, 5 Mega Pixel,dll. Format bmp (bitmap) adalah format citra yang 
-langsung memetakan intensitas RGB ke media penyimpanan dengan rincian setiap 
-pixel:
--Red (R) : 8 bit , 0‐255
--Green (G): 8 bit , 0‐255
+merepresentasikan teks dengan pemformatan lanjutan, seperti huruf tebal, miring, dan daftar.
+
+- Plain Text Files
+
+Teks mentah sering disimpan dalam file berformat .txt atau .csv. Ini adalah format dasar yang hanya berisi teks tanpa format atau struktur tambahan.
+
+- Image
+
+Representasi Citra Digital, semua gambar yang bisa disimpan/diolah pada 
+komputer/piranti digital disebut dengan citra digital. Citra digital tersusun dari elemen‐elemen terkecil yang disebut Pixel (picture element).Banyaknya pixel pada sebuah 
+citra disebut dengan Resolusi. Biasanya resolusi dinyatakan dalam 2 cara, yaitu:dimensi panjang x lebar, misal: 800×600,1024×768, dll; Banyaknya pixel, misal: 
+2 Mega Pixel, 5 Mega Pixel,dll. 
+
+Format bmp (bitmap) adalah format citra yang langsung memetakan intensitas RGB ke media penyimpanan dengan rincian setiap pixel:
+
+- Red (R) : 8 bit , 0‐255
+
+- Green (G): 8 bit , 0‐255
+
 – Blue (B): 8 bit , 0‐255
-Sehingga, 1 pixel citra dengan format bmp memerlukan alokasi sebesar 24 bit (3 
-Byte). Format lain dari citra antara lain: jpg, gif, png,dsb. Umumnya memiliki ukuran 
-yang lebih kecil dari bmp untuk citra yang sama.Hal ini disebabkan format selain 
-bmp merupakan format yang telah mengalami kompresi.</p>
-## Bab 5
-Bahasa Pemrograman :
-<p>Bahasa pemrograman adalah sebuah bahasa yang digunakan untuk menulis atau 
-menyusun kode yang dapat diterjemahkan oleh komputer menjadi instruksi-instruksi
-yang dapat dieksekusi. Hal ini sama saja dengan menjadikan Bahasa pemrograman 
-sebagai cara yang bisa dipahami oleh komputer.</p>
-<p>Bahasa pemrograman ada beberapa jenis antara lain : bahasa tingkat rendah, 
-bahasa mesin, Bahasa tingkat menengah dan Bahasa tingkat tinggi.</p>
-Fungsi Bahasa Pemrograman:
-<p>- Memudahkan Komunikasi Antara Komputer dan Pengguna</p>
-<p>- Membuat Aplikasi yang Kompleks</p>
-<p>- Membuat Kode Reusable</p>
-<p>- Mempercepat Pengembangan Software</p>
-<p>- Membuat Komputer Melakukan Banyak Tugas yang Berbeda</p>
-<p>Bahasa Mesin/Bahasa Assembly =
-Bahasa mesin adalah bentuk Bahasa pemrograman yang paling rendah dalam hal 
-tingkat abstraksi. Bahasa mesin menggambarkan instruksi dalam kode biner yang
-secara langsung dapat dieksekusi oleh komputer. Setiap bahasa mesin terkait erat 
-dengan arsitektur perangkat keras tertentu.</p>
-<p>Bahasa Tingkat Rendah =
+
+Sehingga, 1 pixel citra dengan format bmp memerlukan alokasi sebesar 24 bit (3 Byte). 
+
+Format lain dari citra antara lain: jpg, gif, png,dsb. Umumnya memiliki ukuran yang lebih kecil dari bmp untuk citra yang sama. Hal ini disebabkan format selain bmp merupakan format yang telah mengalami kompresi.
+
+# Bab 5
+
+## Bahasa Pemrograman
+
+Bahasa pemrograman adalah sebuah bahasa yang digunakan untuk menulis atau menyusun kode yang dapat diterjemahkan oleh komputer menjadi instruksi-instruksi yang dapat dieksekusi. Hal ini sama saja dengan menjadikan Bahasa pemrograman 
+sebagai cara yang bisa dipahami oleh komputer.
+
+Bahasa pemrograman ada beberapa jenis antara lain : bahasa tingkat rendah, 
+bahasa mesin, Bahasa tingkat menengah dan Bahasa tingkat tinggi.
+
+### Fungsi Bahasa Pemrograman:
+
+- Memudahkan Komunikasi Antara Komputer dan Pengguna
+
+- Membuat Aplikasi yang Kompleks
+
+- Membuat Kode Reusable
+
+- Mempercepat Pengembangan Software
+
+- Membuat Komputer Melakukan Banyak Tugas yang Berbeda
+
+### Bahasa Mesin/Bahasa Assembly
+Bahasa mesin adalah bentuk Bahasa pemrograman yang paling rendah dalam hal tingkat abstraksi. Bahasa mesin menggambarkan instruksi dalam kode biner yang secara langsung dapat dieksekusi oleh komputer. Setiap bahasa mesin terkait erat dengan arsitektur perangkat keras tertentu.
+
+### Bahasa Tingkat Rendah 
+
 Bahasa ini memberikan control yang lebih langsung atas perangkat keras 
-komputer.Instruksi lebih dekat dengan bahasa mesin, tetapi lebih mudah dipahami 
-oleh manusia.
-Contoh: C dan C++.</p>
-<p>Bahasa Tingkat Menengah =
-Bahasa ini menawarkan tingkat abstraksi yang lebih tinggi dibandingkan bahasa 
-tingkat rendah. Biasanya, lebih mudah untuk memahami dan digunakanuntuk 
-mengembangkan perangkat lunak sistem.
-Contoh: Ada, Rust.</p>
-<p>Bahasa Tingkat Tinggi =
+komputer.Instruksi lebih dekat dengan bahasa mesin, tetapi lebih mudah dipahami oleh manusia. Contoh: C dan C++.
+
+### Bahasa Tingkat Menengah
+
+Bahasa ini menawarkan tingkat abstraksi yang lebih tinggi dibandingkan bahasa tingkat rendah. Biasanya, lebih mudah untuk memahami dan digunakan untuk mengembangkan perangkat lunak sistem. Contoh: Ada, Rust.
+
+### Bahasa Tingkat Tinggi
+
 Bahasa pemrograman yang sangat jauh dari bahasa mesin atau bahasa assembly 
-adalah bahasa pemrograman tingkat tinggi atau high-level language. Bahasa ini 
-sangat mudah dipahami oleh manusia dan lebih banyak digunakan untuk aplikasi web, 
-aplikasi mobile, atau aplikasi data science.
-Contoh bahasa tingkat tinggi adalah Python, Ruby, atau JavaScript.</p>
-## Bab 6
-Translator:
-<p>Dalam konteks bahasa pemrograman, "translator" biasanya merujuk kepada program 
-atau perangkat lunak yang mengubah kode sumber dari satu bahasa pemrograman ke 
-bahasa pemrograman lain. Ini biasanya dilakukan untuk beberapa tujuan seperti 
-portabilitas,optimisasi, atau integrasi.</p> 
-<p>Ada 2 jenis translator utama pada bahasa 
-pemrograman, yaituCompiler dan Interpreter.</p>
-<p>-Compiler =
-Compiler adalah jenis translator yang menerjemahkan seluruh kode sumber dalam
-satu kali proses ke dalam bahasa mesin atau kode antara (intermediate code).
-Compiler menghasilkan file biner atau kode antara yang dapat dieksekusi secara
-langsung oleh komputer.
-Contoh bahasa yang menggunakan compiler adalah C, C++, dan Ada.</p>
-Fase Pada Compiler:
+adalah bahasa pemrograman tingkat tinggi atau high-level language. Bahasa ini sangat mudah dipahami oleh manusia dan lebih banyak digunakan untuk aplikasi web, aplikasi mobile, atau aplikasi data science. Contoh bahasa tingkat tinggi adalah Python, Ruby, atau JavaScript.
+
+# Bab 6
+
+## Translator
+Dalam konteks bahasa pemrograman, "translator" biasanya merujuk kepada program atau perangkat lunak yang mengubah kode sumber dari satu bahasa pemrograman ke bahasa pemrograman lain. Ini biasanya dilakukan untuk beberapa tujuan seperti portabilitas,optimisasi, atau integrasi.
+
+Ada 2 jenis translator utama pada bahasa pemrograman, yaitu Compiler dan Interpreter.
+
+### Compiler
+Compiler adalah jenis translator yang menerjemahkan seluruh kode sumber dalamsatu kali proses ke dalam bahasa mesin atau kode antara (intermediate code).
+
+Compiler menghasilkan file biner atau kode antara yang dapat dieksekusi secara langsung oleh komputer.
+
+Contoh bahasa yang menggunakan compiler adalah C, C++, dan Ada.
+
+#### Fase Pada Compiler
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/compiler.png)</span>
-<p>Interpreter =
-Interpreter adalah jenis translator yang membaca dan mengeksekusi kode sumber 
-baris demi baris saat program berjalan. Ini berarti kode sumber tidak 
-diterjemahkan ke dalam bahasa mesin atau kode antara sebelum dieksekusi.
-Contoh bahasa yang menggunakan interpreter adalah Python,JavaScript, dan Ruby.</p>
-Compiler VS Interpreter:
+
+### Interpreter 
+
+Interpreter adalah jenis translator yang membaca dan mengeksekusi kode sumber baris demi baris saat program berjalan. Ini berarti kode sumber tidak diterjemahkan ke dalam bahasa mesin atau kode antara sebelum dieksekusi. Contoh bahasa yang menggunakan interpreter adalah Python,JavaScript, dan Ruby.
+
+### Compiler VS Interpreter
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/interpreter.png)</span>
-<p>Linker = 
-Linker adalah bagian dari proses kompilasi dalam pengembangan perangkat lunak yang 
-bertanggung jawab untuk menggabungkan berbagai modul kode sumber menjadi sebuah 
-program eksekusi yang dapat dijalankan</p>
+
+## Linker
+Linker adalah bagian dari proses kompilasi dalam pengembangan perangkat lunak yang bertanggung jawab untuk menggabungkan berbagai modul kode sumber menjadi sebuah program eksekusi yang dapat dijalankan
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/linker.png)</span>
