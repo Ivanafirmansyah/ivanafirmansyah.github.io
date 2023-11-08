@@ -325,35 +325,35 @@ Bilangan cacah adalah bilang bulat tanpa nilai negatif.
 data teks pada komputer mengacu pada cara teks atau informasi berbasis teks 
 direpresentasikan, disimpan,dan dikelola dalam sistem komputer. Representasi ini mencakup cara karakter, kata, kalimat, dan dokumen dalam bentuk teks direpresentasikan dalam format biner yang dapat dipahami dan diolah oleh komputer.
 
-metode representasi data teks pada komputer:
+##### metode representasi data teks pada komputer
 
-- Character Encoding
+###### Character Encoding
 
 Character encoding adalah metode dasar untuk merepresentasikan karakter teks 
 dalam bentuk kode numerik. Setiap karakter (termasuk huruf, angka, dan simbol) diberikan kode numerik yang unik.
 
-- Plain Text
+###### Plain Text
 
 Teks mentah atau plain text adalah representasi dasar teks di komputer. Ini adalah urutan karakter yang direpresentasikan menggunakan karakter encoding tertentu, seperti ASCII atau UTF-8. Teks mentah tidak memiliki pemformatan khusus dan tidak mengandung tag atau markup.
 
-- Markup Languages
+###### Markup Languages
 
 Markup languages seperti HTML (Hypertext Markup Language) dan XML 
 (eXtensibleMarkup Language) digunakan untuk merepresentasikan teks bersama 
 dengan tag yang memberikan instruksi untuk pemformatan dan tampilan. Markup 
 languages memungkinkan teks untuk dimunculkan dalam berbagai cara di web dan aplikasi.
 
-- Word Processing Formats
+###### Word Processing Formats
 
 Format dokumen pengolah kata seperti DOCX (Microsoft Word), ODT
 (OpenDocument Text), dan RTF (Rich Text Format) digunakan untuk 
 merepresentasikan teks dengan pemformatan lanjutan, seperti huruf tebal, miring, dan daftar.
 
-- Plain Text Files
+###### Plain Text Files
 
 Teks mentah sering disimpan dalam file berformat .txt atau .csv. Ini adalah format dasar yang hanya berisi teks tanpa format atau struktur tambahan.
 
-- Image
+###### Image
 
 Representasi Citra Digital, semua gambar yang bisa disimpan/diolah pada 
 komputer/piranti digital disebut dengan citra digital. Citra digital tersusun dari elemen‐elemen terkecil yang disebut Pixel (picture element).Banyaknya pixel pada sebuah 
