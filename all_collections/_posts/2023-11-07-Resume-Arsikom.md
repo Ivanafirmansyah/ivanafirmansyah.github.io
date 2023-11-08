@@ -41,12 +41,19 @@ ALU (Arithmetic Logic Unit) adalah komponen penting dalam unit pemrosesan pusat 
 #### Komponen ALU
 
 - Register
+
 - Pemilih(Multiplexer)
+
 - Dekoder
+
 - Rangkaian Aritmatika
+
 - Rangkaian Logika
+
 - Pembanding(Comparator)
+
 - Rangkaian penanganan Overflow dan Carry
+
 - Bus Data(Jalur Komunikasi)
 
 ### Register
@@ -63,126 +70,176 @@ karakterindividual).
 - Execute: Operasi Execute dilakukan oleh CPU. Output yang dihasilkan oleh CPU kemudian disimpan ke dalam memori dan setelah itu ditampilkan di layar pengguna.
 
 #### Jenis-Jenis Register
+
 - MAR(Memory Address Register)
+
 Register ini menyimpan alamat memori dari data dan instruksi. Register ini 
 digunakan untuk mengakses data dan instruksi dari memoriselama fase eksekusi suatu instruksi.
+
 - MDR(Memory Data Register)
+
 MDR adalah register unit kontrol komputer yang berisi data yang akan disimpan di penyimpanan computer (misalnya RAM), atau data setelah diambil dari penyimpanan komputer.Register ini bertindak seperti buffer dan menyimpan apa pun yang disalin dari memori yang siap digunakan oleh prosesor. MDR menyimpan informasi sebelum masuk ke decoder.
+
 - MBR(Memory Buffer Register)
+
 Memory Buffer Register digunakan untukmenyimpan informasi dan data yang dapat dibaca atau ditulis dalam memori komputer.Fungsi utama MBR adalah untuk 
 menyimpan berbagai jenis instruksi komputer dan data yang dapat ditransfer antarmemori komputer. Register MBR adalah register terkait memori utama untuk prosesor yang ada di unit pemrosesan karena register ini mampu melakukan operasi terkait memori dengan sangat cepat.
+
 - PC(Program Counter)
+
 Nama lain dari register Program Counter adalah Instruction Address Register (IAR) atau IC (instruction counter).Program Counter digunakan untuk menunjukkan posisi saat ini dari urutan program dalam sistem komputer.Ketika instruksi diambil 
 dari memori, nilai Program Counter bertambah satu dan menunjuk ke instruksi berikutnya yang perlu dieksekusi oleh prosesor CPU. Program Counter digunakan untuk menyimpan alamat instruksi langsung yang perlu dieksekusi selanjutnya.
+
 - Accumulator
+
 Register Accumulator memiliki peran yang sangat penting karena jika register ini tidak ada, maka semua hasil sementara yang perlu disimpan dalam memori utama dapat menambah overhead pada memori. Hal ini karena operasi baca dan tulis yang tidak perlu akan meningkat. Hasil sementara yang diperoleh dari CPU dapat dengan 
 mudah disimpan di register Accumulator. Kecepatan akses register Accumulator jauh lebih cepat dibandingkan dengan memori utama. Dalam banyak sistem modern, ada berbagai jenis accumulator yang dapat digunakan untuk menyimpan hasil sementara.
+
 - Index Register
+
 Index Register di CPU komputer adalah register prosesor yang digunakan untuk memodifikasi Alamat operan selama menjalankan program.Register ini banyak digunakan untuk melakukan operasi array atau vektor. Konten diambil dari register indeks dan ditambahkan atau dikurangi ke beberapa Alamat langsung untuk mendapatkan Alamat data yang efektif.
+
 - Instruction Register
+
 Instruction register merupakan jenis lain dari register CPU yang digunakan untuk menyimpan instruksi yang sedang dieksekusi atau yang akan didekodekan. Dalam prosesor, register ini menyimpan setiap instruksi di dalamnya, dan kemudian dapat dieksekusi oleh prosesor. Instruksi dapat dieksekusi dalam satu langkah atau dapat 
 dieksekusi dalam beberapa langkah.
+
 # Bab 2
+
 ## Sejarah Komputer
+
 ### Komputer Generasi 1
+
 - Ditemukan pada tahun 1940-1956
+
 - Menggunakan Vacuum Tube sebagai komponen digital
+
 - Bahasa yang digunakan bahasamesin(0 dan 1)
+
 - Membutuhkan ruangan yang luas
-### Komputer Generasi 2:
+
+### Komputer Generasi 2
+
 - Digunakan antara tahun 1956-1963
+
 - Menggunakan Transistor sebagai komponen digitalnya
+
 - Bahasa yang digunakan Bahasa assembly
+
 - Ukuran tidak sebesar generasi 1
-### Komputer Generasi 3:
+
+### Komputer Generasi 3
+
 - Digunakan tahun 1964-1971
+
 - Menggunakan IC (Integrated Circuits) sebagai komponen digital
+
 - Ukuran lebih kecil dari generasi 2
-### Komputer Generasi 4:
+
+### Komputer Generasi 4
+
 - Digunakan pada tahun 1971-sekarang
+
 - Menggunakan Mikroprosesor sebagai komponen digital
+
 - Sudah terdapat layar monitor yang dapat menampilkan GUI
+
 - Ukuran bervariasi
+
 ### Komputer Generasi Selanjutnya 
+
 - Berupa cloud computing dan AI
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/vacum.png)</span>
-## Logic Gate:
-<p>Gerbang logika atau logic gates adalah proses pengolahan input bilangan biner
-dengan teori matematika boolean.Logic gate ini direpresentasikanmenggunakan 
-tabel kebenaran. Jika memiliki nilai benar (true) akan ditunjukan dengan angka “1”. 
-Sebaliknya, jika memiliki nilai salah (false) akan ditunjukan dengan angka “0”.<p>
-Fungsi Gerbang Logika:
-<p>Gerbang logika memiliki fungsi untuk melakukan fungsi logika dasar untuk
-membentuk sirkuit digital yang terintegrasi. Kebanyakan logic gate menggunakan
-bilangan biner 0 atau 1 bisa juga disebut true atau false. Biasanya terdiri dari dua
-buah nilai input dan satu nilai output.</p>
-Tabel Kebenaran:
-<p>Tabel kebenaran adalah tabel yang digunakan untuk melihat nilai kebenaran Dari
-suatu pernyataan. Di sini tabel kebenaran dapat diartikan sebagai table yang berisi 
-kombinasi-kombinasi variable masukan (input) yang menghasilkan keluaran (output) 
-yang logis.</p>
+
+## Logic Gate
+
+Gerbang logika atau logic gates adalah proses pengolahan input bilangan biner
+dengan teori matematika boolean. Logic gate ini direpresentasikanmenggunakan 
+tabel kebenaran. Jika memiliki nilai benar (true) akan ditunjukan dengan angka “1”. Sebaliknya, jika memiliki nilai salah (false) akan ditunjukan dengan angka “0”.
+
+### Fungsi Gerbang Logika
+
+Gerbang logika memiliki fungsi untuk melakukan fungsi logika dasar untuk
+membentuk sirkuit digital yang terintegrasi. Kebanyakan logic gate menggunakan bilangan biner 0 atau 1 bisa juga disebut true atau false. Biasanya terdiri dari dua buah nilai input dan satu nilai output.
+
+### Tabel Kebenaran
+
+Tabel kebenaran adalah tabel yang digunakan untuk melihat nilai kebenaran dari suatu pernyataan. Di sini tabel kebenaran dapat diartikan sebagai table yang berisi kombinasi-kombinasi variable masukan (input) yang menghasilkan keluaran (output) yang logis.
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/gerbang.png)</span>
-## Bab 3
-Memory:
-<p>Memory adalah perangkat atau sistem yang digunakan untuk menyimpan informasi 
-untuk penggunaan langsung dalam komputer atau perangkat keras komputer dan
-perangkat elektronik digital yang terkait.</p>
-Jenis Memory:
+
+# Bab 3
+
+## Memory
+
+Memory adalah perangkat atau sistem yang digunakan untuk menyimpan informasi untuk penggunaan langsung dalam komputer atau perangkat keras komputer dan perangkat elektronik digital yang terkait.
+
+## Jenis Memory
+
 - Memory Read Only (ROM)
-<p>tipe memori komputer yang berisi data yang tidak dapat diubah oleh pengguna. Data 
-dalam ROM bersifat tetap dan digunakan untuk menyimpan firmware, instruksi 
-komputer, dan data yang perlu ada selama perangkat hidup.</p>
+
+tipe memori komputer yang berisi data yang tidak dapat diubah oleh pengguna. Data dalam ROM bersifat tetap dan digunakan untuk menyimpan firmware, instruksi komputer, dan data yang perlu ada selama perangkat hidup.
+
 - Memory Read/Write
-<p>tipe memori komputer yang memungkinkan pengguna untuk membaca (mengambil 
-data dari memori) dan menulis (menyimpan atau mengubah data ke dalam memori) 
-sesuai kebutuhan. Memory R/W umumnya digunakan untuk penyimpanan data 
-sementara (seperti RAM) yang memungkinkan komputer untuk bekerja dengan data 
-secara dinamis selama operasi.</p>
+
+tipe memori komputer yang memungkinkan pengguna untuk membaca (mengambil 
+data dari memori) dan menulis (menyimpan atau mengubah data ke dalam memori) sesuai kebutuhan. Memory R/W umumnya digunakan untuk penyimpanan data sementara (seperti RAM) yang memungkinkan komputer untuk bekerja dengan data secara dinamis selama operasi.
+
 - Static Memory 
-<p>tipe memori komputer yang dapat menyimpan data tanpa 
-memerlukan daya listrik berkelanjutan dan data yang disimpan bersifat tetap 
-hingga diubah atau dihapus secara sengaja. Ini termasuk tipe memori seperti Static 
-RAM (SRAM) dan non-volatile memory seperti Flash memory.</p>
+
+tipe memori komputer yang dapat menyimpan data tanpa memerlukan daya listrik berkelanjutan dan data yang disimpan bersifat tetap hingga diubah atau dihapus secara sengaja. Ini termasuk tipe memori seperti Static 
+RAM (SRAM) dan non-volatile memory seperti Flash memory.
+
 - Dynamic Memory
-<p>tipe memori yang digunakan untuk penyimpanan data yang dapat dibaca dan ditulis 
-oleh perangkat lunak komputer. memerlukan penyegaran berulang untuk 
-mempertahankan data dan bersifat volatil, artinya data hilang ketika daya mati. Ini 
-digunakan sebagai memori utama dalam komputer untuk penyimpanan sementara 
-data yang aktif saat komputer beroperasi.</p>
+
+tipe memori yang digunakan untuk penyimpanan data yang dapat dibaca dan ditulis oleh perangkat lunak komputer. memerlukan penyegaran berulang untuk 
+mempertahankan data dan bersifat volatil, artinya data hilang ketika daya mati. Ini digunakan sebagai memori utama dalam komputer untuk penyimpanan sementara data yang aktif saat komputer beroperasi.
+
 - Volatile
-<p>suatu jenis memori atau data yang dapat hilang atau terhapus ketika daya listrik 
-diputuskan atau perangkat dimatikan. Dengan kata lain, data dalam memori volatil 
-akan lenyap saat daya mati. Contoh utama dari memori volatil adalah RAM (RandomAccess Memory) dalam komputer, yang kehilangan data yang tersimpan saat 
-komputer dimatikan atau direstart.</p> 
+
+suatu jenis memori atau data yang dapat hilang atau terhapus ketika daya listrik diputuskan atau perangkat dimatikan. Dengan kata lain, data dalam memori volatil akan lenyap saat daya mati. Contoh utama dari memori volatil adalah RAM (RandomAccess Memory) dalam komputer, yang kehilangan data yang tersimpan saat 
+komputer dimatikan atau direstart.
+
 - Non-volatile
-<p>suatu komponen atau memori untuk menjaga data atau informasi yang tersimpan 
-bahkan ketika daya listrik dimatikan. data yang disimpan dalam media non-volatile 
-akan tetap ada dan dapat diakses setelah komputer dimatikan atau restart,
-Perkembangan Memory</p>
+
+suatu komponen atau memori untuk menjaga data atau informasi yang tersimpan bahkan ketika daya listrik dimatikan. data yang disimpan dalam media non-volatile akan tetap ada dan dapat diakses setelah komputer dimatikan atau restart,
+Perkembangan Memory
 
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/memory.png)</span>
-Cara Kerja Memory:
-<p>Memori dalam konteks komputer adalah tempat penyimpanan data dan instruksi 
-yang diperlukan untuk operasi komputer. Terdapat beberapa jenis memori yang 
-bekerja berbeda dalam komputer, seperti RAM, ROM, dan penyimpanan sekunder 
-(seperti hard drive atau SSD).</p>
-<p>Cara kerja memori di komputer melibatkan proses pembacaan dan penulisan data. 
-Ketika komputer memerlukan data atau instruksi, ia membaca data tersebut dari 
-media penyimpanan yang sesuai ke RAM untuk digunakan dalam operasi saat ini. Data 
-dapat ditulis kembali ke media penyimpanan jika ada perubahan dalam data 
-tersebut.</p>
-Cara Optimalisasi Memory:
-<p>- Pembersihan Aplikasi dan Proses yang Tidak Diperlukan</p>
-<p>- Pengelolaan Cache</p>
-<p>- Virtual Memory</p>
-<p>- Meningkatkan RAM</p>
-<p>- Optimasi Penggunaan Browser</p>
-<P>- Mengelola Startup Aplikasi</P>
-<p>- Menggunakan Software Optimalisasi Memori</p>
-<p>- Menghapus File Sementara dan Sampah</p>
-<p>- Mengaktifkan Trim (untuk SSD)</p>
-<p>- Pemantauan Penggunaan Memori</p>
-## Bab 4
+
+## Cara Kerja Memory
+
+Memori dalam konteks komputer adalah tempat penyimpanan data dan instruksi 
+yang diperlukan untuk operasi komputer. Terdapat beberapa jenis memori yang bekerja berbeda dalam komputer, seperti RAM, ROM, dan penyimpanan sekunder (seperti hard drive atau SSD).
+
+Cara kerja memori di komputer melibatkan proses pembacaan dan penulisan data. Ketika komputer memerlukan data atau instruksi, ia membaca data tersebut dari media penyimpanan yang sesuai ke RAM untuk digunakan dalam operasi saat ini. Data 
+dapat ditulis kembali ke media penyimpanan jika ada perubahan dalam data tersebut.
+
+## Cara Optimalisasi Memory
+
+- Pembersihan Aplikasi dan Proses yang Tidak Diperlukan
+
+- Pengelolaan Cache
+
+- Virtual Memory
+
+- Meningkatkan RAM
+
+- Optimasi Penggunaan Browser
+
+- Mengelola Startup Aplikasi
+
+- Menggunakan Software Optimalisasi Memori
+
+- Menghapus File Sementara dan Sampah
+
+- Mengaktifkan Trim (untuk SSD)
+
+- Pemantauan Penggunaan Memori
+
+# Bab 4
+
 Data:
 <p>Data adalah fakta-fakta, angka, informasi,atau rekaman yang digunakan sebagai
 dasar untuk pengambilan keputusan,analisis, penelitian, atau tujuan lainnya.Data 
