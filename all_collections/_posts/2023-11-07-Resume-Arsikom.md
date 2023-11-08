@@ -13,7 +13,7 @@ comments: true
 
 ## Komponen CPU
 
-- Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.
+- <p align="justify">Control Unit: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan instruksi dalam prosesor.</p>
 
 - Arithmetic and logic unit (ALU): Untuk melakukan operasi aritmetika dan operasi logika berdasar instruksi yang ditentukan.
 
