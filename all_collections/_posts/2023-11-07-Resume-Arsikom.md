@@ -9,10 +9,12 @@ comments: true
 
 ## (Pengertian Arsitektur Komputer)
 
-Ketika disebut kata arsitektur, kita mungkin lebih familiar dengan istilah pada perancangan dan desain rumah atau bangunan. Dengan prinsip yang sama, arsitektur komputer melibatkan pembangunan komputer dan semua yang masuk ke dalam sistem komputer.secara sederhana, arsitektur komputer dapat didefinisikan sebagai ilmu atau seperangkat aturan yang menyatakan bagaimana perangkat lunak dan perangkat keras komputer bergabung bersama dan berinteraksi untuk membuat komputer bekerja. 
-Arsitektur komputer tidak hanya menentukan cara kerja komputer, tetapi juga teknologi apa yang mampu dimiliki komputer. Komputer terus menjadi bagian utama dari kehidupan kita, dan arsitek komputer terus mengembangkan program dan teknologi baru dan lebih baik.
-Arsitektur komputer terdiri dari aturan dan metode atau prosedur yang menggambarkan implementasi, fungsionalitas sistem komputer. Arsitektur dibangun sesuai kebutuhan pengguna dengan memperhatikan kendala ekonomi dan keuangan.
-Secara umum, arsitektur komputer mengacu pada bagaimana sistem komputer dirancang menggunakan teknologi yang kompatibel.
+Arsitektur sistem komputer adalah konsep perencanaan dan struktur pengoperasian
+dasar sistem komputer. Arsitektur sistem komputer adalah ilmu yang menghubungkan
+berbagai macam komponen perangkat keras (hardware) untuk menciptakan komputer
+yang memenuhi kebutuhan operasional, kinerja dan tujuan finansial. Dalam hal ini, implementasi perancangan setiap bagiannya lebih terfokuskan terutama
+pada cara kerja CPU dan cara mengakses data serta alamat yang ada pada cache, RAM, ROM, hardisk dan lain-lain.
+
 
 ### Sejarah arsitektur komputer
 
@@ -57,6 +59,8 @@ Micro-architecture bekerja dengan cara tertentu. Ia membaca instruksi dan melaku
 Design System didefinisikan sebagai desain yang dapat melayani kebutuhan pengguna seperti arsitektur sistem, modul komputer yang memiliki berbagai antarmuka, dan manajemen data dalam suatu sistem. 
 Arsitektur ini mencakup semua komponen perangkat keras dalam sistem, termasuk pemroses data selain CPU, seperti unit pemrosesan grafis dan akses memori langsung. Juga mencakup memory controller, data path, dan hal-hal lain seperti multiprocessing dan virtualization.
 
+
+## Bab 2
 
 ## CPU (Central Processing Unit)
 
@@ -155,7 +159,7 @@ Index Register di CPU komputer adalah register prosesor yang digunakan untuk mem
 Instruction register merupakan jenis lain dari register CPU yang digunakan untuk menyimpan instruksi yang sedang dieksekusi atau yang akan didekodekan. Dalam prosesor, register ini menyimpan setiap instruksi di dalamnya, dan kemudian dapat dieksekusi oleh prosesor. Instruksi dapat dieksekusi dalam satu langkah atau dapat 
 dieksekusi dalam beberapa langkah.
 
-# Bab 2
+# Bab 3
 
 ## Sejarah Komputer
 
@@ -220,7 +224,7 @@ Tabel kebenaran adalah tabel yang digunakan untuk melihat nilai kebenaran dari s
 
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/gerbang.png)</span>
 
-# Bab 3
+# Bab 4
 
 ## Memory
 
@@ -289,7 +293,7 @@ dapat ditulis kembali ke media penyimpanan jika ada perubahan dalam data tersebu
 
 - Pemantauan Penggunaan Memori
 
-# Bab 4
+# Bab 5
 
 ## Data
 
@@ -423,7 +427,7 @@ Sehingga, 1 pixel citra dengan format bmp memerlukan alokasi sebesar 24 bit (3 B
 
 Format lain dari citra antara lain: jpg, gif, png,dsb. Umumnya memiliki ukuran yang lebih kecil dari bmp untuk citra yang sama. Hal ini disebabkan format selain bmp merupakan format yang telah mengalami kompresi.
 
-# Bab 5
+# Bab 6
 
 ## Bahasa Pemrograman
 
@@ -463,7 +467,7 @@ Bahasa ini menawarkan tingkat abstraksi yang lebih tinggi dibandingkan bahasa ti
 Bahasa pemrograman yang sangat jauh dari bahasa mesin atau bahasa assembly 
 adalah bahasa pemrograman tingkat tinggi atau high-level language. Bahasa ini sangat mudah dipahami oleh manusia dan lebih banyak digunakan untuk aplikasi web, aplikasi mobile, atau aplikasi data science. Contoh bahasa tingkat tinggi adalah Python, Ruby, atau JavaScript.
 
-# Bab 6
+# Bab 7
 
 ## Translator
 
