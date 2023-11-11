@@ -7,6 +7,7 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --white-3: #ffffff;
   --red-1: #910a1e;
   --red-2: #c41f38;
   --red-3: #e83c56;
@@ -60,7 +61,7 @@
 .modal-article,
 .modal-article-date {
   display: block;
-  color: var(--white-2);
+  color: var(--white-3);
 }
 .modal-article {
   margin-bottom: 0.5rem;
