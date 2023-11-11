@@ -13,6 +13,12 @@
   --red-4: #ff5c74;
   --red-5: #fc7c8f;
   --red-6: #ff99a8;
+  --blue-1: #05244d;
+  --blue-2: #104182;
+  --blue-3: #1d59a8;
+  --blue-4: #2b72cf;
+  --blue-5: #4191fa;
+  --blue-6: #5ba1fc;
 }
 #category-modal-bg {
   position: fixed;
@@ -31,7 +37,7 @@
   border-radius: 1rem;
   padding: 1rem;
   margin: auto;
-  background: var(--red-3);
+  background: var(--blue-3);
   display: none;
   visibility: hidden;
   line-height: 140%;
@@ -65,5 +71,5 @@
   font-size: 0.8rem;
 }
 .modal-article:hover {
-  background: var(--red-4);
+  background: var(--blue-4);
 }
