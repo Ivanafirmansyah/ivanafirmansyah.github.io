@@ -38,10 +38,10 @@
 html,
 body {
   color: var(--white-3);
-  background-color: var(--blue-6);
+  background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--blue-5);
+  background-color: var(--gray-5);
 }
 .content a {
   color: cyan;
@@ -91,7 +91,7 @@ nav {
 .categories .category {
   margin: 0 0.5rem 0 0;
   display: block;
-  color: var(--blue-4);
+  color: var(--gray-4);
   background: var(--white-3);
   border-radius: 15px;
   font-size: 0.7rem;
@@ -165,12 +165,12 @@ nav {
   border-collapse: collapse;
 }
 .content table th {
-  background-color: var(--blue-3);
+  background-color: var(--gray-3);
   color: var(--white-2);
-  border: 1px solid var(--blue-5);
+  border: 1px solid var(--gray-5);
 }
 .content table * {
-  border: 1px solid var(--blue-3);
+  border: 1px solid var(--gray-3);
   padding: 0.2rem;
 }
 .content img {
@@ -187,7 +187,7 @@ nav {
 }
 
 .content pre {
-  background: var(--blue-3) !important;
+  background: var(--gray-3) !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
 }
