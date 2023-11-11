@@ -11,6 +11,10 @@
   --white-2: #a9abb3;
   --red-1: #910a1e;
   --red-2: #c41f38;
+  --red-3: #e83c56;
+  --red-4: #ff5c74;
+  --red-5: #fc7c8f;
+  --red-6: #ff99a8;
 }
 * {
   font-family: inherit;
@@ -94,7 +98,7 @@ main {
 }
 .articles .article {
   padding: 2rem;
-  background: var(--gray-3);
+  background: var(--red-3);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
@@ -132,7 +136,7 @@ a.previous {
 .articles .article .categories .category {
   margin: 0 0.5rem 0.3rem 0;
   display: block;
-  color: var(--gray-4);
+  color: var(--red-4);
   background: var(--white-2);
   border-radius: 15px;
   font-size: 0.7rem;
