@@ -9,6 +9,12 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --red-1: #910a1e;
+  --red-2: #c41f38;
+  --red-3: #e83c56;
+  --red-4: #ff5c74;
+  --red-5: #fc7c8f;
+  --red-6: #ff99a8;
 }
 * {
   font-family: inherit;
@@ -25,10 +31,10 @@
 html,
 body {
   color: var(--white-2);
-  background-color: var(--gray-6);
+  background-color: var(--red-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--red-5);
 }
 .content a {
   color: cyan;
@@ -78,7 +84,7 @@ nav {
 .categories .category {
   margin: 0 0.5rem 0 0;
   display: block;
-  color: var(--gray-4);
+  color: var(--red-4);
   background: var(--white-2);
   border-radius: 15px;
   font-size: 0.7rem;
@@ -152,12 +158,12 @@ nav {
   border-collapse: collapse;
 }
 .content table th {
-  background-color: var(--gray-3);
+  background-color: var(--red-3);
   color: var(--white-2);
-  border: 1px solid var(--gray-5);
+  border: 1px solid var(--red-5);
 }
 .content table * {
-  border: 1px solid var(--gray-3);
+  border: 1px solid var(--red-3);
   padding: 0.2rem;
 }
 .content img {
@@ -174,7 +180,7 @@ nav {
 }
 
 .content pre {
-  background: var(--gray-3) !important;
+  background: var(--red-3) !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
 }
@@ -183,7 +189,7 @@ nav {
   padding: 3px 5px;
   color: var(--white-2);
   white-space: pre;
-  background-color: var(--gray-3);
+  background-color: var(--red-3);
 }
 
 /* lbox */
