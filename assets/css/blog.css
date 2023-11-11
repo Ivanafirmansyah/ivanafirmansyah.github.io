@@ -9,6 +9,8 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --red-1: #910a1e;
+  --red-2: #c41f38;
 }
 * {
   font-family: inherit;
@@ -25,10 +27,10 @@
 html,
 body {
   color: var(--white-2);
-  background-color: var(--gray-6);
+  background-color: var(--red-1);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--red-2);
 }
 header {
   padding: 2rem 0 4rem 0;
