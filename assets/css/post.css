@@ -15,6 +15,12 @@
   --red-4: #ff5c74;
   --red-5: #fc7c8f;
   --red-6: #ff99a8;
+  --blue-1: #05244d;
+  --blue-2: #104182;
+  --blue-3: #1d59a8;
+  --blue-4: #2b72cf;
+  --blue-5: #4191fa;
+  --blue-6: #5ba1fc;
 }
 * {
   font-family: inherit;
@@ -31,10 +37,10 @@
 html,
 body {
   color: var(--white-2);
-  background-color: var(--red-6);
+  background-color: var(--blue-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--red-5);
+  background-color: var(--blue-5);
 }
 .content a {
   color: cyan;
@@ -84,7 +90,7 @@ nav {
 .categories .category {
   margin: 0 0.5rem 0 0;
   display: block;
-  color: var(--red-4);
+  color: var(--blue-4);
   background: var(--white-2);
   border-radius: 15px;
   font-size: 0.7rem;
@@ -158,12 +164,12 @@ nav {
   border-collapse: collapse;
 }
 .content table th {
-  background-color: var(--red-3);
+  background-color: var(--blue-3);
   color: var(--white-2);
-  border: 1px solid var(--red-5);
+  border: 1px solid var(--blue-5);
 }
 .content table * {
-  border: 1px solid var(--red-3);
+  border: 1px solid var(--blue-3);
   padding: 0.2rem;
 }
 .content img {
@@ -180,7 +186,7 @@ nav {
 }
 
 .content pre {
-  background: var(--red-3) !important;
+  background: var(--blue-3) !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
 }
