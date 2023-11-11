@@ -28,11 +28,11 @@ Pada 1990-an, arsitektur komputer baru biasanya dibangun, diperiksa, dan diubah 
 
 #### 1. Von-Neumann Architecture
 
-Arsitektur ini diusulkan oleh John Von-Neumann. Sekarang komputer sehari-hari yang kita gunakan didasarkan pada arsitektur ini.
-Arsitektur Von-Neumann didasarkan pada beberapa konsep. Pertama, memori komputer memiliki satu memori baca/tulis yang tersedia untuk membaca dan menulis instruksi dan data.
-Setiap memori memiliki beberapa lokasi dan setiap lokasi memiliki alamat yang unik. Kita dapat mengalamatkan isi memori berdasarkan lokasinya terlepas dari jenis data dan instruksi apa yang ada dalam memori, karena itu kita dapat membaca atau menulis data dan instruksi apa pun.
-Kedua, eksekusi instruksi selalu terjadi secara berurutan kecuali diperlukan modifikasi. Sebagai contoh, misalkan kita sedang mengeksekusi sebuah instruksi dari baris 1 ke baris 10 tapi sekarang kita diminta untuk mengeksekusi baris 50 bukannya baris 11 kemudian kita melompat ke instruksi 50 dan mengeksekusinya.
-Dalam arsitektur ini ada bus (bus alamat/bus data/bus kontrol) yang digunakan untuk instruksi dan eksekusi kode data. Perangkat input mengambil data atau instruksi dan Central processing unit (CPU) melakukan satu operasi pada satu waktu, baik mengambil data atau instruksi masuk/keluar dari memori. Setelah operasi selesai, lalu dikirim ke perangkat output. Unit kontrol (Control Unit) dan unit logika (ALU) untuk operasi pemrosesan berada di dalam unit pemrosesan pusat (CPU).
+Arsitektur ini diusulkan oleh John Von-Neumann. Dalam arsitektur ini terdapat bus (bus alamat/bus
+data/bus kontrol) yang digunakan untuk menjalankan instruksi dan eksekusi kode data. Perangkat input mengambil data atau instruksi dan CPU melakukan satu operasi pada
+satu waktu, baik mengambil data atau instruksi masuk/keluar dari memori. Setelah
+operasi selesai, dikirim ke perangkat output. CU dan ALU untuk memproses fungsi- fungsi tersebut terletak 
+
 
 #### 2.Harvard Architecture
 
