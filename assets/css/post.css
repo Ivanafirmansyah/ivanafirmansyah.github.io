@@ -9,6 +9,7 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --white-3: #ffffff;
   --red-1: #910a1e;
   --red-2: #c41f38;
   --red-3: #e83c56;
@@ -36,7 +37,7 @@
 }
 html,
 body {
-  color: var(--white-2);
+  color: var(--white-3);
   background-color: var(--blue-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
@@ -91,7 +92,7 @@ nav {
   margin: 0 0.5rem 0 0;
   display: block;
   color: var(--blue-4);
-  background: var(--white-2);
+  background: var(--white-3);
   border-radius: 15px;
   font-size: 0.7rem;
   padding: 0 0.8rem;
@@ -139,7 +140,7 @@ nav {
   margin-bottom: 1.75rem;
   font-style: italic;
   font-weight: 100;
-  border-left: 0.3rem solid var(--white-2);
+  border-left: 0.3rem solid var(--white-3);
 }
 .content strong {
   font-weight: bold;
@@ -195,7 +196,7 @@ nav {
   padding: 3px 5px;
   color: var(--white-2);
   white-space: pre;
-  background-color: var(--red-3);
+  background-color: var(--blue-3);
 }
 
 /* lbox */
