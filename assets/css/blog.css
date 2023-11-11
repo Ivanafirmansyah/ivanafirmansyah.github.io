@@ -9,6 +9,7 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --white-3: #ffffff;
   --red-1: #910a1e;
   --red-2: #c41f38;
   --red-3: #e83c56;
@@ -36,7 +37,7 @@
 }
 html,
 body {
-  color: var(--white-2);
+  color: var(--white-3);
   background-color: var(--blue-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
@@ -120,7 +121,7 @@ a.previous {
 
 .articles .article .article-title,
 .articles .article .article-title a {
-  color: var(--white-2);
+  color: var(--white-3);
   font-weight: 100;
   font-style: italic;
   font-size: 1.4rem;
@@ -143,7 +144,7 @@ a.previous {
   margin: 0 0.5rem 0.3rem 0;
   display: block;
   color: var(--blue-4);
-  background: var(--white-2);
+  background: var(--white-3);
   border-radius: 15px;
   font-size: 0.7rem;
   padding: 0 0.8rem;
