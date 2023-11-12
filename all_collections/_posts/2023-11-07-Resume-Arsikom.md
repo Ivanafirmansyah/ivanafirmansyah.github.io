@@ -498,3 +498,6 @@ Interpreter adalah jenis translator yang membaca dan mengeksekusi kode sumber ba
 Linker adalah bagian dari proses kompilasi dalam pengembangan perangkat lunak yang bertanggung jawab untuk menggabungkan berbagai modul kode sumber menjadi sebuah program eksekusi yang dapat dijalankan
 
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/linker.png)</span>
+
+
+<span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/mumet.jpg)<span>
