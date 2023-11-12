@@ -500,4 +500,7 @@ Linker adalah bagian dari proses kompilasi dalam pengembangan perangkat lunak ya
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/linker.png)</span>
 
 
+
+
+
 <span style="display:block;text-align:center">![alt](https://ivanafirmansyah.github.io/assets/img/mumet.jpg)<span>
